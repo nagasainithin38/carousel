@@ -1,0 +1,23 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inner-container{
+    display: flex;
+}
+.inner-container-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.index{
+    width: 20px;
+    height: 20px;
+    /* background-color: black; */
+    border: 1px solid black;
+}

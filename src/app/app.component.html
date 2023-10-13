@@ -1,0 +1,25 @@
+<div class="container">
+
+  <div>
+
+  <div class="inner-container">
+        <button (click)="decrease()"><</button>
+      <div>
+        <img [src]="images[index]" width="300px" height="300px" style="margin:10px" alt="">
+      </div>
+      <button (click)="increase()">></button>
+</div>
+
+<div class="inner-container-2">
+
+<div class="index" [ngStyle]="{ 'background-color':index==idx?'black':'white' }" (click)="changeImage(idx)" *ngFor="let i of images;let idx=index">
+  
+
+</div>
+
+
+</div>
+
+</div>
+
+</div>
